@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@import "atropos/css";
+
+.my-atropos {
+  width: 320px;
+  height: 220px;
+  border-radius: 32px;
+}
+.atropos-inner {
+  border-radius: 32px;
+}
