@@ -3,6 +3,7 @@ import profile from "../../assets/profile.jpeg";
 import gmail from "../../assets/gmail.png";
 import linkedin from "../../assets/linkedin.png";
 import instagram from "../../assets/instagram.png";
+import github from "../../assets/github.png";
 
 const Introduction = () => {
   return (
@@ -39,6 +40,9 @@ const Introduction = () => {
           </a>
           <a href="mailto:nicolaseduardobrito@gmail.com">
             <img className="w-[25px] h-[25px]" src={gmail} alt="My Gmail" />
+          </a>
+          <a href="https://github.com/NicolasEBrito">
+            <img className="w-[25px] h-[25px]" src={github} alt="My Github" />
           </a>
         </div>
       </div>
